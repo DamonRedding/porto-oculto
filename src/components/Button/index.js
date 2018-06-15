@@ -1,0 +1,14 @@
+import React, {Component} from 'React';
+
+import './index.css';
+
+
+export default class Button extends Component {
+
+  render(){
+    return(
+      <button>{this.props.children}</button>
+    );
+  }
+
+}
