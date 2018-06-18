@@ -1,12 +1,10 @@
-import React from 'react'
+import React, {component} from 'react'
 import Link from 'gatsby-link'
+import ImageFeed from '../components/ImageFeed'
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <ImageFeed src="https://placeimg.com/327/172/any" alt="Alternate Text">This is a Title</ImageFeed>
   </div>
 )
 
