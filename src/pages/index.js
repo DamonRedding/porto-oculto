@@ -1,10 +1,10 @@
 import React, {component} from 'react'
 import Link from 'gatsby-link'
-import Title from '../components/Title'
+import ImageFeed from '../components/ImageFeed'
 
 const IndexPage = () => (
   <div>
-    <Title>This is a Title</Title>
+    <ImageFeed src="https://placeimg.com/327/172/any" alt="Alternate Text">This is a Title</ImageFeed>
   </div>
 )
 
