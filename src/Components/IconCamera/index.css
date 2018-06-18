@@ -1,9 +1,17 @@
 .Icon{
+  width: 80px;
+  height:80px;
+  background-color: #D6D6D6;
+  border-radius: 50%;
+  position: relative;
 
 }
 
 .Icon-image{
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  width: 40px;
+  height: 40px;
 
-  width: 45px;
-  height: 47px;
 }
