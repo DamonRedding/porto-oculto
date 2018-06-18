@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import Button  from '../components/Button'
 
 import Header from '../components/header'
 import './index.css'
