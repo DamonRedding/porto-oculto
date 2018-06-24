@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import './reset.css';
 import './normalize.css';
 
-import Header from '../components/header'
+import Header from '../Components/header'
 import './index.css'
 
 const Layout = ({ children, data }) => (
