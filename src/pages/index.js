@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 import Link from 'gatsby-link'
 
 import Layout from './layouts'
-import PageTitleBack from '../Components/PageTitleBack'
+import PageTitleFilter from '../Components/PageTitleFilter'
 
 
 
 const IndexPage = () => (
   <Layout>
-    <PageTitleBack>Screen Title</PageTitleBack>
+    <PageTitleFilter>Filter</PageTitleFilter>
   </Layout>
 
 )

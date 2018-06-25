@@ -1,4 +1,4 @@
-.PageTitleBack{
+.PageTitleFilter{
   position: absolute;
   background-color: #838383;
   width:375px;
@@ -6,8 +6,14 @@
   text-align: center;
   color:#fff;
 }
-.BackArrow{
+.PageTitleFilter--text{
+  position: absolute;
+  right: 2px;
+  top: 10px;
+
+}
+.CloseIcon{
   position: absolute;
   left: 2px;
-  width: 50px;
+  width: 45px;
 }
