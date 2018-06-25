@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 
 import Link from 'gatsby-link'
 
-import BackToBrowseButton from '../Components/BackToBrowseButton'
+import AddPlacesButton from '../Components/AddPlacesButton'
 
 
 const IndexPage = () => (
-  <BackToBrowseButton > Back to Browse Places < /BackToBrowseButton>
+  <AddPlacesButton>Add places</AddPlacesButton>
 
 )
 
