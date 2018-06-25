@@ -1,0 +1,40 @@
+
+.StatusLabel-text{
+  margin-left: 10px;
+  font-size: 14px;
+}
+.SatatusLabel{
+  position: relative;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.SatatusLabel-circle--red {
+  position: absolute;
+  left: 2px;
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+.SatatusLabel-circle--green {
+  position: absolute;
+  left: 2px;
+  height: 15px;
+  width: 15px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+.SatatusLabel-circle--yellow {
+  position: absolute;
+  left: 2px;
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}

@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
 
-import Link from 'gatsby-link'
 
-import AddPlacesButton from '../Components/AddPlacesButton'
+import Link from 'gatsby-link'
+import Layout from './layouts';
+
+import SatatusLabel from '../Components/SatatusLabel'
 
 
 const IndexPage = () => (
-  <AddPlacesButton>Add places</AddPlacesButton>
-
-)
+      <Layout>
+        <SatatusLabel>Add places</SatatusLabel>
+      </Layout>
+    );
 
 export default IndexPage
