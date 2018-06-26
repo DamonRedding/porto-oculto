@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 
 import Link from 'gatsby-link';
-import Button  from '../components/Button';
+import OnboardingButton  from '../components/OnboardingButton';
 
 const IndexPage = () => (
   <div>
-  <Button>View Other Places</Button>
+  <OnboardingButton>View Other Places</OnboardingButton>
   </div>
 )
 
