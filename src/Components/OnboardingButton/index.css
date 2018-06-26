@@ -1,8 +1,15 @@
 .OnboardingButton{
+  position: relative;
   width: 300px;
-  height: 51px;
+  height: 50px;
   font-size: 24px;
   line-height: 20px;
   color: #000;
   border: none;
+  background-color: red;
+}
+.NextIcon{
+  position: absolute;
+  right: 2px;
+
 }
