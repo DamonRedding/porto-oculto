@@ -1,0 +1,42 @@
+/* src/components/Post/Post.css */
+
+.Post {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  margin-bottom: 60px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.Post-image-bg {
+  background-color: #efefef;
+}
+
+.Post-image img {
+  border-radius: 25px;
+  display: block;
+  width: 100%;
+}
+
+.Post-address {
+  padding: 16px 16px;
+}
+
+.Post-address strong {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+
+.Post-rating-state {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  margin-left: 12px;
+}
+
+.vjs-fade-out {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+
+}
