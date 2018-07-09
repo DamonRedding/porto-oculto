@@ -1,6 +1,7 @@
 // ./src/services/firebase.js
-import firebase from 'firebase'
-import 'firebase/firestore'
+// import 'firebase/firestore';
+import firebase from '../services/firebase';
+
 // Initialize Firebase
 const config = {
   apiKey: 'AIzaSyD5iebGtIKJl7jHHOBwsaNsCUujmb0mLOw',
@@ -9,18 +10,18 @@ const config = {
   projectId: 'porto-oculto',
   storageBucket: 'porto-oculto.appspot.com',
   messagingSenderId: '1094386184011',
-}
+};
 
 class Firebase {
   constructor() {
-    firebase.initializeApp(config)
-    this.store = firebase.firestore
-    this.auth = firebase.auth
+    firebase.initializeApp(config);
+    this.store = firebase.firestore;
+    this.auth = firebase.auth;
   }
 
   get polls() {
-    return this.store().collection('polls')
+    return this.store().collection('polls');
   }
 }
 
-export default new Firebase()
+export default new Firebase();

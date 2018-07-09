@@ -5,7 +5,7 @@ import './Post.css';
 class Post extends Component {
   render() {
     return (
-      <article className="Post" ref="Post">
+      <article className="Post">
         <div className="Post-image">
           <div className="Post-image-bg">
             <img
