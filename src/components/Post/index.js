@@ -5,17 +5,21 @@ class Post extends Component
 {
   render()
   {
+    const address = this.props.address;
+    const image = this.props.image;
+    const state = this.props.state;
+
     return <article className="Post" ref="Post">
       <div className="Post-image">
         <div className="Post-image-bg">
-          <img alt="Icon Living" src="https://pbs.twimg.com/media/DOXI0IEXkAAkokm.jpg" />
+          <img alt="Icon Living" src={image}/>
         </div>
       </div>
       <div className="Post-address">
-        <strong>Rua de Costa Cabral,400</strong>
+        <strong>{address}</strong>
       </div>
       <div className="Post-rating-state">
-        <span>Bad State</span>
+        <span>{state}</span>
       </div>
     </article>;
   }

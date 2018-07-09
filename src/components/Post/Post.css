@@ -1,9 +1,9 @@
 /* src/components/Post/Post.css */
 
 .Post {
-  background-color: #fff;
-  border: 1px solid #e6e6e6;
-  border-radius: 3px;
+  /* background-color: #fff; */
+  /* border: 1px solid #e6e6e6; */
+  /* border-radius: ; */
   margin-bottom: 60px;
   margin-left: 20%;
   margin-right: 20%;
@@ -15,6 +15,7 @@
 
 .Post-image img {
   border-radius: 25px;
+  box-shadow: 0px 4px 8px #7C7C7C;
   display: block;
   width: 100%;
 }
