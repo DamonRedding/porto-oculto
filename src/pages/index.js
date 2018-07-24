@@ -1,14 +1,12 @@
-import React from 'react';
-import Layout from '../Layout';
+import React, {Component} from 'react';
 
+import Link from 'gatsby-link';
+import Button  from '../components/Button';
 
 const IndexPage = () => (
-  <Layout>
-    <div>
-      <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-    </div>
-  </Layout>
-);
+  <div>
+  <Button>View Other Places</Button>
+  </div>
+)
 
 export default IndexPage;
