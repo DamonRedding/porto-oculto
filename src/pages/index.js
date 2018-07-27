@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Button from '../components/Button';
-import IconCamera from '../components/IconCamera';
+import IconCamera from '../Components/IconCamera';
 
 const IndexPage = () => (
   <div>
@@ -12,3 +12,4 @@ const IndexPage = () => (
 
 
 export default IndexPage;
+ 
