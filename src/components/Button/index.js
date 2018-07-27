@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 
 import './index.css';
 
-
 export default class Button extends Component {
   render() {
     return (
@@ -11,6 +10,7 @@ export default class Button extends Component {
     );
   }
 }
+
 Button.propTypes = {
   children: PropTypes.string.isRequired,
 };
