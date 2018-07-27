@@ -1,14 +1,11 @@
 import React from 'react';
 
-import Button from '../components/Button';
-import IconCamera from '../Components/IconCamera';
+import PageTitleFiltert from '../components/PageTitleFilter';
 
 const IndexPage = () => (
   <div>
-    <IconCamera />
-    <Button>View Other Places</Button>
+    <PageTitleFiltert> View Other Places </PageTitleFiltert>
   </div>
 );
-
 
 export default IndexPage;

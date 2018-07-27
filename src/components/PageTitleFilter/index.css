@@ -1,0 +1,20 @@
+.PageTitleFilter{
+  position: relative;
+  background-color: #838383;
+  width:375px;
+  height: auto;
+  text-align: center;
+  color:#fff;
+}
+.PageTitleFilter--text{
+  position: absolute;
+  right: 2px;
+  top: 10px;
+  margin: 2px 2px;
+
+}
+.CloseIcon{
+  position: absolute;
+  left: 2px;
+  width: 44px;
+}
