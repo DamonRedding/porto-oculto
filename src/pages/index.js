@@ -9,6 +9,6 @@ const IndexPage = () => (
     <IconCamera />
     <Button>View Other Places</Button>
   </div>
-)
+);
 
 export default IndexPage;
