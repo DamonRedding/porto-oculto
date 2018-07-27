@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 import Button from '../components/Button';
@@ -10,5 +9,6 @@ const IndexPage = () => (
     <Button>View Other Places</Button>
   </div>
 );
+
 
 export default IndexPage;
